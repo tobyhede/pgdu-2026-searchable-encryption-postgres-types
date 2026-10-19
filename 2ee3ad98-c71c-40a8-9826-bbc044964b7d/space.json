@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "id": "2ee3ad98-c71c-40a8-9826-bbc044964b7d",
+  "title": "One catalog, many outputs",
+  "maps": [
+    {
+      "id": "271f00a4-80a8-4f85-b022-0bffe803388c",
+      "title": "Diagram",
+      "kind": "positioned",
+      "positions": {
+        "20f60541-ce75-4e09-829b-01e974851566": {
+          "x": 0,
+          "y": 226,
+          "open": false
+        },
+        "f14c6426-d497-4eec-b9b3-c8155aa7ec12": {
+          "x": 500,
+          "y": 0,
+          "open": false
+        },
+        "30c729d5-34fb-47f7-ae58-82e612bf6617": {
+          "x": 500,
+          "y": 226,
+          "open": false
+        },
+        "7d73ef78-42c3-4707-9506-aa9667bbcd20": {
+          "x": 500,
+          "y": 452,
+          "open": false
+        },
+        "7034eb8a-c583-4a8c-83bc-47d39ce42299": {
+          "x": 0,
+          "y": 680,
+          "open": true,
+          "size": {
+            "width": 620,
+            "height": 160
+          }
+        }
+      },
+      "graphs": [
+        {
+          "id": "51080a8c-1b41-4557-8f60-fa0e039a1279",
+          "title": "Generation",
+          "color": "#1f77b4",
+          "headShape": "arrow",
+          "edges": [
+            {
+              "from": "20f60541-ce75-4e09-829b-01e974851566",
+              "to": "f14c6426-d497-4eec-b9b3-c8155aa7ec12"
+            },
+            {
+              "from": "20f60541-ce75-4e09-829b-01e974851566",
+              "to": "30c729d5-34fb-47f7-ae58-82e612bf6617"
+            },
+            {
+              "from": "20f60541-ce75-4e09-829b-01e974851566",
+              "to": "7d73ef78-42c3-4707-9506-aa9667bbcd20"
+            }
+          ]
+        }
+      ],
+      "activeGraph": "51080a8c-1b41-4557-8f60-fa0e039a1279"
+    }
+  ],
+  "defaultMap": "271f00a4-80a8-4f85-b022-0bffe803388c"
+}

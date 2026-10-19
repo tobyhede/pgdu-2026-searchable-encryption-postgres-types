@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "id": "ba7e5892-4240-46ca-a338-e88dad260a45",
+  "title": "How `=` reaches the index",
+  "maps": [
+    {
+      "id": "55b02d74-43dd-49e1-9197-34e4271319c8",
+      "title": "Diagram",
+      "kind": "positioned",
+      "positions": {
+        "8caab307-1cd3-437e-9579-689c8fcee5ca": {
+          "x": 0,
+          "y": 0,
+          "open": false
+        },
+        "80af3beb-469c-4a88-8baa-c23bc5b32e0f": {
+          "x": 0,
+          "y": 420,
+          "open": false
+        },
+        "84f2b0d9-0e5f-4795-8c69-3101f3e88dc8": {
+          "x": 0,
+          "y": 840,
+          "open": false
+        },
+        "446f3bd7-44d1-4973-a684-108b7177aae8": {
+          "x": 0,
+          "y": 1260,
+          "open": false,
+          "shape": "pill"
+        }
+      },
+      "graphs": [
+        {
+          "id": "86613d91-3ed5-4a2a-acc6-ca6d7e7adfa4",
+          "title": "Planning",
+          "color": "#1f77b4",
+          "headShape": "arrow",
+          "edges": [
+            {
+              "from": "8caab307-1cd3-437e-9579-689c8fcee5ca",
+              "to": "80af3beb-469c-4a88-8baa-c23bc5b32e0f",
+              "title": "inline operator function"
+            },
+            {
+              "from": "80af3beb-469c-4a88-8baa-c23bc5b32e0f",
+              "to": "84f2b0d9-0e5f-4795-8c69-3101f3e88dc8",
+              "title": "inline extractors"
+            },
+            {
+              "from": "84f2b0d9-0e5f-4795-8c69-3101f3e88dc8",
+              "to": "446f3bd7-44d1-4973-a684-108b7177aae8",
+              "title": "structural match"
+            }
+          ]
+        }
+      ],
+      "activeGraph": "86613d91-3ed5-4a2a-acc6-ca6d7e7adfa4"
+    }
+  ],
+  "defaultMap": "55b02d74-43dd-49e1-9197-34e4271319c8"
+}

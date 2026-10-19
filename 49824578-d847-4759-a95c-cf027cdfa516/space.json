@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "49824578-d847-4759-a95c-cf027cdfa516",
+  "title": "Talks",
+  "maps": [
+    {
+      "id": "dd0301e9-045d-4f76-9264-871fa221e49b",
+      "title": "Map 1",
+      "kind": "positioned",
+      "positions": {
+        "60140788-b4f2-4a29-9dbb-380b2849e158": {
+          "x": 0,
+          "y": 0,
+          "open": false
+        }
+      },
+      "graphs": [
+        {
+          "id": "eefc1c82-7dba-4698-b455-9b125da23ce1",
+          "title": "Graph 1",
+          "color": "#1f77b4",
+          "headShape": "arrow",
+          "edges": []
+        }
+      ],
+      "activeGraph": "eefc1c82-7dba-4698-b455-9b125da23ce1"
+    }
+  ],
+  "defaultMap": "dd0301e9-045d-4f76-9264-871fa221e49b"
+}

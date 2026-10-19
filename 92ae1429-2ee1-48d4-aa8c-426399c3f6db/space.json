@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "id": "92ae1429-2ee1-48d4-aa8c-426399c3f6db",
+  "title": "The client/database boundary",
+  "maps": [
+    {
+      "id": "fb2b63be-f485-4a84-8bf1-6258d7c8b7f8",
+      "title": "Diagram",
+      "kind": "positioned",
+      "positions": {
+        "3f9b5c5b-6c51-49dc-8ab3-78cee985a2b6": {
+          "x": 170,
+          "y": -452,
+          "open": false,
+          "shape": "pill"
+        },
+        "0d286549-4c6a-4b58-acb1-c93d61a4425f": {
+          "x": 930,
+          "y": -452,
+          "open": false,
+          "shape": "pill"
+        },
+        "6bb7216d-d705-461b-860c-458aef3a764f": {
+          "x": 0,
+          "y": 0,
+          "open": false
+        },
+        "1007a597-cef5-4546-b7f0-f8b91ce9fce9": {
+          "x": 340,
+          "y": 0,
+          "open": false
+        },
+        "0b0018d8-5708-4536-a78c-e1fc16bbc702": {
+          "x": 0,
+          "y": 226,
+          "open": false
+        },
+        "9beefafe-34a3-4709-ac22-9fce5da8b889": {
+          "x": 340,
+          "y": 226,
+          "open": false
+        },
+        "193b1aa1-bc51-4d1f-9c17-6f9521623aa5": {
+          "x": 340,
+          "y": -226,
+          "open": false
+        },
+        "42acb810-c22f-475a-92a2-67b49c440a80": {
+          "x": 760,
+          "y": 0,
+          "open": false,
+          "shape": "ellipse"
+        },
+        "9436b2c8-f357-457d-8f8d-f207965a2f0f": {
+          "x": 760,
+          "y": 226,
+          "open": false
+        },
+        "6fb4bc29-a076-4041-8ecc-4e22b0bc83ef": {
+          "x": 1100,
+          "y": 226,
+          "open": false
+        }
+      },
+      "graphs": [
+        {
+          "id": "b9522720-e162-45c1-98ad-fbc407f5880c",
+          "title": "Flow",
+          "color": "#1f77b4",
+          "headShape": "arrow",
+          "edges": [
+            {
+              "from": "6bb7216d-d705-461b-860c-458aef3a764f",
+              "to": "1007a597-cef5-4546-b7f0-f8b91ce9fce9"
+            },
+            {
+              "from": "0b0018d8-5708-4536-a78c-e1fc16bbc702",
+              "to": "9beefafe-34a3-4709-ac22-9fce5da8b889"
+            },
+            {
+              "from": "1007a597-cef5-4546-b7f0-f8b91ce9fce9",
+              "to": "42acb810-c22f-475a-92a2-67b49c440a80"
+            },
+            {
+              "from": "9beefafe-34a3-4709-ac22-9fce5da8b889",
+              "to": "9436b2c8-f357-457d-8f8d-f207965a2f0f"
+            },
+            {
+              "from": "9436b2c8-f357-457d-8f8d-f207965a2f0f",
+              "to": "6fb4bc29-a076-4041-8ecc-4e22b0bc83ef"
+            }
+          ]
+        },
+        {
+          "id": "40cd087d-5a6b-4596-baac-3c9b50829e82",
+          "title": "Results",
+          "color": "#2ca02c",
+          "headShape": "vee",
+          "edges": [
+            {
+              "from": "42acb810-c22f-475a-92a2-67b49c440a80",
+              "to": "193b1aa1-bc51-4d1f-9c17-6f9521623aa5",
+              "title": "encrypted result"
+            }
+          ]
+        }
+      ],
+      "activeGraph": "b9522720-e162-45c1-98ad-fbc407f5880c"
+    }
+  ],
+  "defaultMap": "fb2b63be-f485-4a84-8bf1-6258d7c8b7f8"
+}
